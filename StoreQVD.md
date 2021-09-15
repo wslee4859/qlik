@@ -51,3 +51,15 @@ If  $(vScriptErrorCount)>0 then
     
 End If
 ```
+
+# .QVD 파일 불러와서 데이터 로드
+
+```
+[TableName]:
+LOAD
+    *
+FROM [lib://TargetMart/2.음료영업정보/Link_영업정보_$(vWorkMon).qvd]
+(qvd);
+
+```
+
