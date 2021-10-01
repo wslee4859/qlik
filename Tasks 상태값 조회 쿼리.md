@@ -5,6 +5,7 @@ SELECT
 "TaskID", 
 task."Name" as TaskName,
 app."Name" as AppName,
+task."Enabled" as Enabled,  
 "ExecutionID", 
 result."Status", 
 "StatusName",
