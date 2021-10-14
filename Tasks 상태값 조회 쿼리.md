@@ -1,5 +1,7 @@
 ### Qlik Sense Tasks 의 결과내용을 Repository 에서 조회할 수 있는 테이블 정보 및 쿼리정보
 
+* starttime, endtime 의 경우 timezone 고려하지 않은 UTC 시간임.
+
 ```sql
 SELECT 
 "TaskID", 
