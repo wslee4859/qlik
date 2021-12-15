@@ -13,6 +13,12 @@
 
 
 ### MIS 웹 캐모마일 
+- WebToB , JEUS 서버 별도
+
+WebToB  
+- VIP : 10.120.3.209
+
+JEUS
 - VIP : 10.120.3.150
 - LCSINTEGWAS01 : 10.120.3.151
 - LCSINTEGWAS02 : 10.120.3.152
