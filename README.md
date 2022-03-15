@@ -1,9 +1,19 @@
 
-# script Error 체크 로직
+# Script Error 체크 로직
 [참고](https://help.qlik.com/ko-KR/sense/February2022/Subsystems/Hub/Content/Sense_Hub/Scripting/ErrorVariables/ScriptErrorCount.htm)
 * ScriptErrorCount
 
 이 오류 변수는 현재 스크립트 실행 도중 오류를 일으킨 문의 총 수를 반환합니다. 이 변수는 스크립트 실행이 시작될 때 항상 0으로 초기화됩니다.
+
+* ErrorMode   
+
+이 오류 변수는 스크립트 실행 도중 오류가 발견되었을 때 Qlik Sense에서 실행할 동작을 결정합니다.
+>ErrorMode=1	기본 설정입니다. 스크립트 실행이 정지되며 사용자에게 동작을 묻는 메시지가 표시됩니다(배치 모드가 아닐 경우).
+>ErrorMode =0	Qlik Sense에서 오류를 그냥 무시하고 다음 스크립트 문의 스크립트를 실행을 계속합니다.   
+>ErrorMode =2	
+Qlik Sense에서 사용자에게 사전에 동작을 묻는 메시지를 표시하지 않고 "스크립트 실행에 실패했습니다..."라는 오류 메시지를 트리거합니다.
+
+
 
 ```script
 /******************** 에러 체크 ****************************************/
