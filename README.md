@@ -1,3 +1,13 @@
+# script log 경로
+[참고](https://community.qlik.com/t5/Knowledge/How-to-find-the-Script-Reload-logs-in-Qlik-Sense-Enterprise/ta-p/1717526)
+
+Executed from the Management Console (QMC):
+
+Default: \\<sharedpath>\ArchivedLogs\<servername>\Script such as C:\Share\Archived Logs\Server Name\Script
+    
+E:\QlikShare\ArchivedLogs\lcsmissch01\Script
+
+
 
 # Script Error 체크 로직
 [참고](https://help.qlik.com/ko-KR/sense/February2022/Subsystems/Hub/Content/Sense_Hub/Scripting/ErrorVariables/ScriptErrorCount.htm)
